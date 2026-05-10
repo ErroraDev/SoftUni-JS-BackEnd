@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Sharencho",
+    "description": "Dominant and aggressive to other cats. Will probably eat you in your sleep. Very cute tho.",
+    "imagePath": "/content/images/Energy reasons.jpg",
+    "breed": "Bombay Cat"
+  },
+  {
+    "id": 2,
+    "name": "Sivcho",
+    "description": "Dominant and aggressive to other cats. Will probably eat you in your sleep. Very cute tho.",
+    "imagePath": "/content/images/Energy reasons.jpg",
+    "breed": "Bombay Cat"
+  },
+  {
+    "id": 3,
+    "name": "Simpatichno",
+    "description": "normal",
+    "imagePath": "/content/images/Energy reasons.jpg",
+    "breed": "Sharena"
+  }
+]
