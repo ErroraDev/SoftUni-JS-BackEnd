@@ -1,0 +1,35 @@
+<h1>Hello handlebars</h1>
+<h2>{{message}}</h2>
+<p>{{response}}</p>
+
+<div>
+    <p>{{product.name}}</p>
+    <p>{{product.price}}</p>
+</div>
+
+{{#with product}}
+    <p>With helper</p>
+    <div>
+        <p>{{name}}</p>
+        <p>{{price}}</p>
+    </div>
+{{/with}}
+
+{{#if username}}
+    <p>if statemant user check</p>
+    <p>{{username}}</p>
+    {{else}}
+    <p>Guest user</p>
+{{/if}}
+
+{{#if contacts}}
+    <ul>
+        {{#each contacts}}
+            <li>{{name}} {{email}}</li>
+        {{!--{{else}}--}}
+        {{!--<p>No contacts yet</p>}}--}}
+        {{/each}}
+    </ul>
+{{else}}
+<p>No contacts yet</p>
+{{/if}}

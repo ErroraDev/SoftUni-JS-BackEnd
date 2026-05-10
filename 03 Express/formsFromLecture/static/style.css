@@ -1,0 +1,10 @@
+body{
+    background-color: #ddd;
+}
+
+#content {
+    background-color: white;
+    width: 980px;
+    margin: auto;
+}
+
