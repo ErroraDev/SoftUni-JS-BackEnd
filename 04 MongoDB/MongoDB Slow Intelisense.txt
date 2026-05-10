@@ -1,0 +1,5 @@
+//Slow Intelisense
+
+https://github.com/Automattic/mongoose/issues/10349
+ghost commented on Jul 13, 2021 •
+I am experiencing the problem since Mongoose has adopted it's own official type definition. I have a workaround that is to delete index.d.ts of mongoose in node_module and then npm i -D -E @types/mongoose@5.10.5 to temporarily use the DefinitelyTyped type definition.
